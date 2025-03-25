@@ -6,7 +6,7 @@ import io
 import re
 pygame.init()
 
-openai.api_key = "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"
+openai.api_key = "opengpt key"
 
 def generate_response(input_text):
     response = openai.Completion.create(
