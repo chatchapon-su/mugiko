@@ -26,7 +26,7 @@ screen=ttk.Window(title="Mugiko",size=(500,400))
 screen.resizable(width=False, height=True)
 screen.position_center()
 
-outchat = ttk.Label(text="สวัสดีค่ะมีอะไรให้ช่วยไหมคะ", wraplength=300)  # 200 คือความยาวของบรรทัดที่คุณต้องการ
+outchat = ttk.Label(text="สวัสดีค่ะมีอะไรให้ช่วยไหมคะ", wraplength=300)
 chatin=ttk.Entry()
 chatin.focus()
 sendbox=ttk.Button(text="Send",command=ai)
